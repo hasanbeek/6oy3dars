@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--black);
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.desc{
+    color: var(--white);
+    opacity: 50%;
+    max-width: 540px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

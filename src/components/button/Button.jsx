@@ -1,7 +1,8 @@
-import React from 'react'
-
-export default function Button(href="/",variant,text) {
+import "./Button.css"
+export default function Button({href = "/", text}) {
   return (
-    <a href={href} >{text}</a>
-  )
+    <button className="button1">
+      <a href={href}>{text}</a>
+    </button>
+  );
 }

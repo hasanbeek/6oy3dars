@@ -1,0 +1,10 @@
+#headphone{
+    background-color: hsl(0, 0%, 0%);
+    color: #FFFFFF;
+    text-align: center;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}

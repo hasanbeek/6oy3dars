@@ -42,12 +42,22 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   height: 100%;
   font-family: "Manrope", "Arial", sans-serif;
 }
 
 #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+.container{
+  max-width: 1111px;
+  margin: 0 auto;
 }

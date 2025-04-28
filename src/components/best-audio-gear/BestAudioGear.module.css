@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    text-transform: uppercase;
+    max-width: 445px;
+
+}
+
+.titlemark {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.desc {
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--black);
+}

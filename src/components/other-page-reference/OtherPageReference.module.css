@@ -1,0 +1,32 @@
+
+.cardwrapper {
+    background-color: var(--gray);
+    position: relative;
+    
+    height: 284px;
+  }
+  
+  .img {
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    width: 150px;
+  }
+  .card{
+    width: 350px;
+    height: 204px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 14px;
+    color: var(--black);
+    opacity: 50%;
+  }

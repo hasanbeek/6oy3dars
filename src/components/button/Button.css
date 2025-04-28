@@ -1,0 +1,12 @@
+.button1{
+    background-color: var(--orange);
+    padding: 15px 30px;
+    border: 1 solid var(--orange);
+}
+.button1>a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 13px;
+    
+}
